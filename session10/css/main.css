@@ -1,0 +1,32 @@
+
+
+
+
+/* .box::first-line{
+    color: red;
+} */
+
+/* .box::before{
+    content: url('../img/screenshot-www.engage.veented.com-2021.08.19-23_55_34.png');
+} */
+
+/* .box::before{
+    
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cover{
+    width: 100%;
+    height: 600px;
+    background: url("../img/business-2.jpg");
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+}

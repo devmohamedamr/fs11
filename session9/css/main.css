@@ -1,0 +1,72 @@
+/* .box{
+    width: 400px;
+    height: 400px;
+    background: goldenrod;
+} */
+
+/* .child{
+    width: 200px;
+    height: 200px;
+    background: green;
+} */
+
+
+/* .btn{
+    padding: 20px 40px;
+    background: goldenrod;
+    border: hidden;   
+} */
+
+/* input{
+    outline: solid red;
+    border: none;
+} */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.overview{
+    width: 100%;
+    height:750px;
+    background: #f8f8f8;
+}
+
+.content{
+    width: 90%;
+    height: 100%;
+    /* background: gold; */
+    margin: auto;
+}
+
+.conetnt-img{
+    width: 40%;
+    height: 100%;
+    /* background: greenyellow; */
+    float: left;
+}
+
+.conetnt-img img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.content-text{
+    width: 37%;
+    height: 100%;
+    /* background: goldenrod; */
+    float: left;
+    margin-left: 100px;
+    margin-top: 120px;
+    line-height: 27px;
+}
+
+.line{
+    width: 30px;
+    height: 1px;
+    background: gray;
+    margin-top: 50px;
+}
+
+
