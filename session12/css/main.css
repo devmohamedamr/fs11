@@ -1,0 +1,158 @@
+/* .green{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: gray;
+    animation-name:green ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    float: left;
+}
+.red{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: gray;
+    animation-name:red ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    float: left;
+
+}
+.blue{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: gray;
+    animation-name:blue ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    float: left;
+
+} */
+
+
+/* 
+@keyframes red {
+    0% { background: red; }
+    20% { background: green; }
+    40% { background: blue; }
+    60% { background: yellow; }
+    80% { background: gray; }
+    100% { background: skyblue; }
+}
+
+@keyframes green {
+    0% { background: green; }
+    20% { background: red; }
+    40% { background: blue; }
+    60% { background: yellow; }
+    80% { background: gray; }
+    100% { background: skyblue; }
+} */
+
+/* @keyframes blue {
+    0% { background: blue; }
+    20% { background: green; }
+    40% { background: red; }
+    60% { background: yellow; }
+    80% { background: gray; }
+    100% { background: skyblue; }
+} */
+
+
+
+
+body{
+    height: 2000px;
+}
+/* .pointer{
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid green;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+} */
+/* 
+h1{
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+h1:hover{
+    text-shadow: 1px 1px 2px gray; 
+
+} */
+/* 
+.item{
+    width: 200px;
+    height: 300px;
+    background: grey;
+    margin: auto;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    overflow: hidden;
+  
+}
+
+.item:hover{
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+}
+ */
+.mouse{
+    width: 48px;
+    height: 74px;
+    border-radius: 24px;
+    margin: auto;
+    border: 1px solid;
+    position: relative;  
+    overflow: hidden;
+}
+
+
+.point{
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    animation-name: action;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes action {
+    from {top: 5%;}
+    to {top: 50%; opacity: 0;}
+}
